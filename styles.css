@@ -1,0 +1,219 @@
+@import url("https://fonts.googleapis.com/css2?family=Creepster&family=Raleway&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Creepster&family=Open+Sans:wght@800&family=Raleway&display=swap");
+
+* {
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-width: 100%;
+  min-height: 100vh;
+  font-family: "Creepster", cursive;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
+}
+
+.content-ctr {
+  padding: 30px 15px;
+}
+
+.content-ctr img {
+  width: 50%;
+  max-width: 400px;
+}
+
+#spacer {
+  height: 100px;
+}
+
+h1,
+h3 {
+  font-family: "Creepster", cursive;
+}
+
+h1 {
+  font-size: 54px;
+  line-height: 75px;
+  margin: 20px 0;
+}
+
+h2 {
+  font-size: 42px;
+  font-weight: 500;
+  margin-bottom: 60px;
+}
+
+h3 {
+  font-size: 34px;
+  color: #ffffff;
+}
+
+h4 {
+  font-size: 28px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+p {
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.all-btn a,
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+#footer a {
+  color: #000000;
+}
+
+.social-link {
+  color: red;
+}
+
+.top-banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75px;
+  background: #000000;
+}
+
+.top-banner ul {
+  display: none;
+}
+
+.text-align {
+  text-align: center;
+}
+
+.all-btn {
+  display: block;
+  width: 250px;
+  border-radius: 35px;
+  padding: 20px 0;
+  margin: 40px auto;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+  color: #ffffff;
+  background: #000000;
+}
+
+.bp-100 {
+  padding-bottom: 100px;
+} /*bottom padding*/
+
+.bp-80 {
+  padding-bottom: 80px;
+}
+
+.mt-40 {
+  margin-top: 40px;
+}
+
+.mt-80 {
+  margin-top: 80px;
+}
+
+.social-box {
+  margin: 25px auto;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-box img {
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+}
+
+.mail {
+  text-decoration: none;
+  color: #000000;
+  cursor: pointer;
+}
+
+.design h6 {
+  padding: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+    background: rgb(124, 124, 124);
+    background: linear-gradient(
+      180deg,
+      rgba(124, 124, 124, 1) 16%,
+      rgba(113, 112, 112, 1) 43%,
+      rgba(94, 91, 91, 1) 95%
+    );
+  }
+
+  .all-btn.listen {
+    display: none;
+  }
+
+  .top-banner {
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+  }
+
+  .top-banner h3 {
+    font-size: 38px;
+    margin-right: 20px;
+  }
+
+  .top-banner ul {
+    display: flex;
+    color: #ffffff;
+    list-style: none;
+    font-family: "Creepster", cursive;
+    font-size: 32px;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+  }
+
+  li {
+    padding: 0 40px;
+  }
+
+  .content-ctr img {
+    margin-top: 60px; /* Add a margin-top to create space */
+  }
+
+  hr {
+    display: none;
+  }
+
+  .social-box img {
+    width: 80px;
+    height: 80px;
+    margin: 30px 60px;
+  }
+
+  .content-ctr a,
+  .design a {
+    color: #ffffff;
+  }
+
+  a:hover {
+    color: rgb(226, 90, 90);
+  }
+}
